@@ -1,5 +1,5 @@
 ### Save the spider Game
-Project from codecademy, for learning
+Project from codecademy
 
 ## How to run it locally
 
