@@ -6,8 +6,9 @@ import random
 pygame.init()
 
 screen = pygame.display.set_mode((576, 1024))
+title = pygame.display.set_caption('Spider vs Snakes')
 clock = pygame.time.Clock()
-game_font = pygame.font.Font('Fonts/SF-Pro.ttf', 40)
+game_font = pygame.font.Font('Fonts/Noteworthy.ttc', 40)
 
 #game variables
 gravity = 0.1  #reduced gravity
