@@ -22,20 +22,20 @@ brew install git
 # 2. Clone the repo
 Use the git clone command with the repository’s URL:
 ``` bash []
-git clone <https://github.com/ilnitkosta/SpiderGame>
+git clone https://github.com/ilnitkosta/SpiderGame
 ```
 
 # 3. Navigate to the Game Folder
 After cloning, navigate to the game’s directory:
 ``` bash []
-cd <SpiderGame>
+cd SpiderGame
 ```
 
 # 4. Launch the Game
 
 Run the game using the command:
 ``` bash[]
-python3 <game.py>
+python3 game.py
 ```
 
 Enjoy!
