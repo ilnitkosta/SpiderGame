@@ -1,5 +1,5 @@
 ### Save the spider Game
-Project from codecademy
+Learning project using Pygame.
 
 ## How to run it locally
 
