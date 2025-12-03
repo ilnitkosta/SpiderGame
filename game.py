@@ -6,9 +6,9 @@ import random
 pygame.init()
 
 screen = pygame.display.set_mode((576, 1024))
-title = pygame.display.set_caption('Spider vs Snakes')
+title = pygame.display.set_caption('クモ対ヘビ - Spider vs Snakes')
 clock = pygame.time.Clock()
-game_font = pygame.font.Font('Fonts/Noteworthy.ttc', 40)
+game_font = pygame.font.Font('Fonts/SF-Pro.ttf', 40)
 
 #game variables
 gravity = 0.1  #reduced gravity
@@ -80,7 +80,7 @@ def score_display(game_state):
         score_rect = score_surface.get_rect(center=(288, 100))
         screen.blit(score_surface, score_rect)
     if game_state == 'game_over':
-        score_surface = game_font.render(f'Score: {int(score)}', True, (255, 255, 255))
+        score_surface = game_font.render(f'スコア-Score: {int(score)}', True, (255, 255, 255))
         score_rect = score_surface.get_rect(center=(288, 100))
         screen.blit(score_surface, score_rect)
 
