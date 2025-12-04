@@ -1,7 +1,7 @@
 import pygame
 import sys
 import random
-#english version
+#english version for comments
 #initialize pygame
 pygame.init()
 
