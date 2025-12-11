@@ -1,5 +1,5 @@
 ### Save the spider Game
-Learning project using Pygame.
+Learning project using Pygame. 
 
 ## How to run it locally
 
